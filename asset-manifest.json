@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/static/js/main.5e4efa6c.chunk.js",
-    "main.js.map": "/static/js/main.5e4efa6c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.115fa63e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.115fa63e.js.map",
-    "static/js/2.45f7cea2.chunk.js": "/static/js/2.45f7cea2.chunk.js",
-    "static/js/2.45f7cea2.chunk.js.map": "/static/js/2.45f7cea2.chunk.js.map",
-    "static/js/3.d77164f4.chunk.js": "/static/js/3.d77164f4.chunk.js",
-    "static/js/3.d77164f4.chunk.js.map": "/static/js/3.d77164f4.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.45f7cea2.chunk.js.LICENSE.txt": "/static/js/2.45f7cea2.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/www.khuedoan.com/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/www.khuedoan.com/static/js/main.5e4efa6c.chunk.js",
+    "main.js.map": "/www.khuedoan.com/static/js/main.5e4efa6c.chunk.js.map",
+    "runtime-main.js": "/www.khuedoan.com/static/js/runtime-main.6ae67928.js",
+    "runtime-main.js.map": "/www.khuedoan.com/static/js/runtime-main.6ae67928.js.map",
+    "static/js/2.45f7cea2.chunk.js": "/www.khuedoan.com/static/js/2.45f7cea2.chunk.js",
+    "static/js/2.45f7cea2.chunk.js.map": "/www.khuedoan.com/static/js/2.45f7cea2.chunk.js.map",
+    "static/js/3.d77164f4.chunk.js": "/www.khuedoan.com/static/js/3.d77164f4.chunk.js",
+    "static/js/3.d77164f4.chunk.js.map": "/www.khuedoan.com/static/js/3.d77164f4.chunk.js.map",
+    "index.html": "/www.khuedoan.com/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/www.khuedoan.com/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.45f7cea2.chunk.js.LICENSE.txt": "/www.khuedoan.com/static/js/2.45f7cea2.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/www.khuedoan.com/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.115fa63e.js",
+    "static/js/runtime-main.6ae67928.js",
     "static/js/2.45f7cea2.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
     "static/js/main.5e4efa6c.chunk.js"
