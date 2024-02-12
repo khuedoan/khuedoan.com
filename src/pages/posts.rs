@@ -29,11 +29,7 @@ pub fn Post() -> impl IntoView {
         <div class="mx-auto max-w-3xl px-6 lg:px-8">
             <div class="py-20 text-center">
                 <p class="text-base font-semibold leading-7 text-indigo-600">
-                    // TODO DRY
-                    {chrono::DateTime::parse_from_rfc3339(&post.metadata.date)
-                        .unwrap()
-                        .format("%e %b %Y")
-                        .to_string()}
+                    {&post.metadata.date}
                 </p>
                 <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                     {post.metadata.title.clone()}

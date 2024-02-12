@@ -26,8 +26,9 @@ tracing = { version = "0.1", optional = true }
 http = "0.2"
 itertools = "0.11"
 leptos_icons = { version = "0.1", features = ["AiGithubFilled", "AiMailFilled", "AiLinkedinFilled", "AiTwitterOutlined", "BiTelegram"] }
+
+[build-dependencies]
 chrono = "0.4"
-serde = "1.0"
 include_dir = "0.7"
 pulldown-cmark = "0.9"
 gray_matter = "0.2"
@@ -40,9 +41,16 @@ ssr = ["dep:axum", "dep:tokio", "dep:tower", "dep:tower-http", "dep:leptos_axum"
 denylist = ["axum", "tokio", "tower", "tower-http", "leptos_axum"]
 skip_feature_sets = [["ssr", "hydrate"]]
 
+[profile.wasm-release]
+inherits = "release"
+opt-level = 'z'
+lto = true
+codegen-units = 1
+
 [package.metadata.leptos]
 assets-dir = "public"
 bin-features = ["ssr"]
 lib-features = ["hydrate"]
 tailwind-input-file = "src/styles/globals.css"
 watch-additional-files = ["content/"]
+lib-profile-release = "wasm-release"
